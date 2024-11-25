@@ -1,0 +1,543 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 52px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    height: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-pra-title {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 661px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171A20;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.Available {
+    height: 1120px;
+    width: 100%;
+    position: relative;
+}
+
+.Available-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 1120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-title {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Tesla-logo {
+    height: 24px;
+    width: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.TESLA {
+    height: 56px;
+    width: 636px;
+    padding: 0px 0px 0px 32px;
+    display: flex;
+    align-items: center
+}
+
+.categories {
+    height: 56px;
+    width: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists {
+    padding: 4px 16px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.Available-logo {
+    width: 636px;
+    height: 56px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 0px 32px 0px 0px;
+    justify-content: end;
+}
+
+.Available-logos {
+    height: 24px;
+    width: 24px;
+}
+
+.question {
+    height: 56px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.APR-0 {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    width: 100%;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: white;
+    list-style: 56px;
+    margin: 0;
+    padding-top: 40px;
+}
+#APR-0 {
+    margin: 0;
+}
+.order {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+.Model3 {
+    background-color: white;
+    height: 40px;
+    width: 252px;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Order {
+    margin: 0;
+}
+.whole-order {
+    height: 40px;
+    width: 546px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.Model-Y {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Model-Y-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+}
+.Model-1 {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model {
+    margin: 0;
+    color: white;
+    font-size: 56px;
+    font-family: sans-serif;
+}
+.Model1 {
+    margin: 0;
+    font-size: 34px;
+    font-family: sans-serif;
+    color: white;
+}
+.Model2 {
+    margin: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+}
+.Model-Y-bottom {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.bottom-inside {
+    height: 40px;
+    width: 544px;
+    display: flex;
+    justify-content: space-between;
+}
+.Order-Now {
+    height: 40px;
+    width: 264px;
+    background-color: #3E6AE1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#now {
+    color: white;
+}
+.Learn-More {
+    height: 40px;
+    width: 264px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aaa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88%;
+    width: 100%;
+}
+#line {
+    height: 1px;
+    width: 270px;
+    background-color: white;
+}
+.Model-Y-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Model-3 {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model-3-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.Model-X-homepage {
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Model-X {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Model-X-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.Model-X-title {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model-X-Price {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model-X-Credit {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: white;  
+}
+#X {
+    font-size: 56px;
+    font-family: sans-serif;
+    color: white;
+}
+#from {
+    color: white;
+    font-size: 34px;
+    font-family: sans-serif;
+}
+.federal {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.Model-X-order {
+    height: 40px;
+    width: 264px;
+    background-color: #3E6AE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.Model-X-learn {
+    height: 40px;
+    width: 264px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.Model-X-bottom {
+    width: 544px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.hoho {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Model-S {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Model-S-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.Model-S-underline {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.Cybertruck {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cybertruck-whole {
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Cybertruck-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1 ;
+}
+.cybertruck-logo {
+    height: 84px;
+    width: 300px;
+}
+.logo-of-cybertruck {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cybertruck-outside {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cybertruck-button {
+    height: 44px;
+    width: 544px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.cybertruck-order {
+    height: 43px;
+    width: 264px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(174, 174, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(21, 21, 21);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.NOW {
+    margin: 0;
+}
+.Solar-Panels {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Solar-Panels-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.solar {
+    height: 56px;
+    width: 100%;
+    font-size: 56px;
+    font-family: sans-serif;
+    line-height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Schedule {
+    height: 40px;
+    width: 100%;
+    font-size: 34px;
+    font-family: sans-serif;
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: underline;
+}
+.Solar-panel-whole {
+    height: 88%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Solar-Roof {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+}
+
+.Solar-Roof-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Powerwall {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+}
+
+.Powerwall-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Accessories {
+    height: 1172px;
+    width: 100%;
+    position: relative;
+}
+
+.Accessories-pic {
+    height: 1172px;
+    width: 100%;
+    object-fit: cover;
+}
