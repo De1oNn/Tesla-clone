@@ -642,7 +642,7 @@ header {
 .Special {
     text-decoration: underline;
 }   
-footer {
+.whole-footer {
     height: 70px;
     width: 100%;
     display: flex;
@@ -672,6 +672,11 @@ footer {
     bottom: 0;
     background-color: white;
     color: black;
+    z-index: 1;
+}
+footer {
+    position: sticky;
+    bottom: 0;
     z-index: 1;
 }
 .upper-drive {
